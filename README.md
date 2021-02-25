@@ -1,4 +1,4 @@
-HTTP API that lets you make GPT-2 (concurrent) requests.
+HTTP API that lets you make (concurrent) GPT-2 requests and receive the generated text output as JSON.
 
 ## Build n Run
 `./bnr.sh`  
