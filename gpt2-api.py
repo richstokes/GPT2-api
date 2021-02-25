@@ -80,7 +80,7 @@ class GPT2:
         if length is None:
             length = hparams.n_ctx // 2
         elif length > hparams.n_ctx:
-            raise ValueError("Can't get samples longer than window size: %s" % hparams.n_ctx) #TODO: change to print?
+            raise ValueError("Can't get samples longer than window size: %s" % hparams.n_ctx)
 
         print('⏳ Starting tensorflow session..')
 
